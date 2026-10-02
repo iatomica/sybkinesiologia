@@ -28,7 +28,7 @@ export const CLINIC_INFO = {
   instagramUrl: 'https://www.instagram.com/sybkinesiologia?igshid=YmMyMTA2M2Y%3D',
   instagramHandle: '@sybkinesiologia',
   instagramFollowers: '+15.000',
-  address: 'Loyola 228, CABA',
+  address: 'Loyola 228, Villa Crespo, CABA',
   neighborhood: 'Villa Crespo, Ciudad Autónoma de Buenos Aires',
   rating: '4.0',
   reviewCount: '458',
@@ -100,7 +100,7 @@ export const REVIEWS: Review[] = [
     id: '1',
     name: 'Carolina M.',
     date: 'Hace 2 semanas',
-    stars: 4.5,
+    stars: 4.0,
     text: 'Excelente atención en Loyola 228. Fui por una lumbalgia terrible y la combinación de kinesiología con acupuntura de la Lic. Julieta Castellano me cambió la vida. Muy profesionales y dedicados.',
     treatment: 'Acupuntura & Kinesiología'
   },
