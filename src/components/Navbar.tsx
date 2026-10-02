@@ -11,30 +11,34 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           
           {/* Logo */}
-          <a href="#" className="flex items-center">
+          <a href="#" className="flex items-center gap-3">
             <img 
-              src="/logos/dr-jhon-barrios-logo.svg" 
-              alt="Dr. Jhon Barrios Odontología" 
-              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
+              src="/images/sbk-logo.png" 
+              alt="Salud y Bienestar Kinesiología" 
+              className="h-12 sm:h-14 w-auto object-contain"
             />
+            <div className="hidden sm:block">
+              <div className="text-sm font-bold text-neutral-900 leading-tight">Salud y Bienestar</div>
+              <div className="text-[11px] text-[#2E5E3D] font-semibold tracking-wider uppercase">Kinesiología &amp; Acupuntura</div>
+            </div>
           </a>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-neutral-800">
-            <a href="#servicios" className="hover:text-black transition-colors">
+            <a href="#servicios" className="hover:text-[#2E5E3D] transition-colors">
               Especialidades
             </a>
-            <a href="#profesional" className="hover:text-black transition-colors">
-              Dr. Jhon Barrios
+            <a href="#profesionales" className="hover:text-[#2E5E3D] transition-colors">
+              Profesionales
             </a>
-            <a href="#opiniones" className="hover:text-black transition-colors flex items-center gap-1.5">
+            <a href="#opiniones" className="hover:text-[#2E5E3D] transition-colors flex items-center gap-1.5">
               <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
               <span>{CLINIC_INFO.rating}</span>
-              <span className="text-[10px] text-neutral-400 font-normal">({CLINIC_INFO.reviewCount} reseñas)</span>
+              <span className="text-[10px] text-neutral-500 font-normal">({CLINIC_INFO.reviewCount} reseñas)</span>
             </a>
-            <a href="#ubicacion" className="hover:text-black transition-colors flex items-center gap-1 text-neutral-600">
-              <MapPin className="w-3.5 h-3.5 text-neutral-900" />
-              <span>Chacarita, CABA</span>
+            <a href="#ubicacion" className="hover:text-[#2E5E3D] transition-colors flex items-center gap-1 text-neutral-600">
+              <MapPin className="w-3.5 h-3.5 text-[#2E5E3D]" />
+              <span>Villa Crespo, CABA</span>
             </a>
           </nav>
 
