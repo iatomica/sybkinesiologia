@@ -41,13 +41,13 @@ export const PROFESSIONALS = [
   {
     name: 'Lic. Diego Ponce',
     role: 'Kinesiólogo Fisiatra',
-    image: '/images/sbk-diego-ponce.png',
+    image: '/images/sbk-diego-ponce.jpg',
     bio: 'Especialista en rehabilitación kinesiológica, dolor osteomuscular y terapia física integral orientada a la rápida recuperación funcional.'
   },
   {
     name: 'Lic. Julieta Castellano',
     role: 'Kinesióloga Fisiatra',
-    image: '/images/sbk-julieta-castellano.png',
+    image: '/images/sbk-julieta-castellano.jpg',
     bio: 'Especialista en kinesiología integral, acupuntura bioenergética y reeducación biomecánica adaptada a las necesidades de cada paciente.'
   }
 ];
@@ -58,7 +58,7 @@ export const SPECIALTIES: Specialty[] = [
     title: 'Acupuntura Tradicional',
     subtitle: 'Medicina tradicional para equilibrio energético y alivio del dolor',
     description: 'La acupuntura es una técnica milenaria de la medicina tradicional china que consiste en la inserción de agujas muy finas en puntos específicos del cuerpo para estimular el flujo de energía y promover su reorganización.',
-    image: '/images/sbk-acupuntura.png',
+    image: '/images/sbk-acupuntura.jpg',
     tags: ['Medicina Tradicional China', 'Alivio del Dolor', 'Estimulación Energética', 'Terapia Milenaria']
   },
   {
@@ -90,7 +90,7 @@ export const SPECIALTIES: Specialty[] = [
     title: 'Drenaje Linfático Manual & Terapia Manual',
     subtitle: 'Descongestión profunda, circulación y relajación miofascial',
     description: 'Técnicas manuales específicas y rítmicas para estimular la circulación linfática, sumamente indicadas para postoperatorios, edemas y bienestar general.',
-    image: '/images/sbk-banner.png',
+    image: '/images/sbk-hero.jpg',
     tags: ['Postoperatorios', 'Circulación Linfática', 'Terapia Miofascial', 'Desinflamación']
   }
 ];

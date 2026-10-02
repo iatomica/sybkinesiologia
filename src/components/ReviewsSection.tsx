@@ -9,16 +9,16 @@ export const ReviewsSection = () => {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-14 pb-8 border-b border-black/8">
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-neutral-300 text-xs font-bold uppercase tracking-wider text-black shadow-2xs mb-3">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-[#2E5E3D]/20 text-xs font-bold uppercase tracking-wider text-[#2E5E3D] shadow-2xs mb-3">
               <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
               <span>Experiencias Reales de Pacientes</span>
             </div>
             
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-black leading-tight">
-              4,9 Estrellas y más de 390 reseñas
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-neutral-900 leading-tight">
+              {CLINIC_INFO.rating} Estrellas y más de {CLINIC_INFO.reviewCount} opiniones
             </h2>
             <p className="text-sm text-neutral-600 font-light mt-2 max-w-xl">
-              La confianza de nuestros pacientes en Chacarita respalda cada tratamiento, desde un diseño de sonrisa hasta implantes de alta complejidad.
+              La confianza de nuestros pacientes en Villa Crespo respalda cada sesión kinésica, tratamiento del dolor crónico y sesión de acupuntura tradicional.
             </p>
           </div>
 
@@ -27,7 +27,7 @@ export const ReviewsSection = () => {
               href={CLINIC_INFO.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white hover:bg-neutral-50 text-black border border-neutral-300 text-xs font-bold uppercase tracking-wider transition-colors shadow-2xs"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white hover:bg-neutral-50 text-neutral-900 border border-neutral-300 text-xs font-bold uppercase tracking-wider transition-colors shadow-2xs"
             >
               <span>Ver todas en Google Maps</span>
               <ExternalLink className="w-3.5 h-3.5" />
@@ -37,9 +37,9 @@ export const ReviewsSection = () => {
               href={getWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-tactile inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#0A0A0A] hover:bg-[#1A1A1A] text-white text-xs font-bold uppercase tracking-wider shadow-sm"
+              className="btn-tactile inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#2E5E3D] hover:bg-[#234930] text-white text-xs font-bold uppercase tracking-wider shadow-sm transition-colors"
             >
-              <MessageCircle className="w-3.5 h-3.5 text-[#C5A880]" />
+              <MessageCircle className="w-3.5 h-3.5 text-emerald-200" />
               <span>Pedir Turno</span>
             </a>
           </div>

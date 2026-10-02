@@ -117,9 +117,9 @@ export const Hero = () => {
               <div className="relative rounded-[28px] overflow-hidden bg-white p-2.5 shadow-xl border border-neutral-200/80 group">
                 <div className="relative rounded-[22px] overflow-hidden h-[460px] sm:h-[500px] bg-[#FAF8F5] flex items-center justify-center">
                   <img
-                    src="/images/sbk-banner.png"
+                    src="/images/sbk-hero.jpg"
                     alt="Salud y Bienestar Kinesiología - Loyola 228"
-                    className="w-full h-full object-contain p-4 group-hover:scale-102 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
                   />
 
                   {/* Gradient vignette */}

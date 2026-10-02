@@ -13,9 +13,9 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
             <img 
-              src="/images/sbk-logo.png" 
+              src="/images/sbk-logo.jpg" 
               alt="Salud y Bienestar Kinesiología" 
-              className="h-12 sm:h-14 w-auto object-contain"
+              className="h-12 sm:h-14 w-auto object-contain rounded-xl border border-neutral-200"
             />
             <div className="hidden sm:block">
               <div className="text-sm font-bold text-neutral-900 leading-tight">Salud y Bienestar</div>
@@ -46,9 +46,9 @@ export const Navbar = () => {
           <div className="hidden sm:flex items-center gap-3">
             <a
               href={`tel:${CLINIC_INFO.phoneRaw}`}
-              className="hidden xl:flex items-center gap-1.5 text-xs text-neutral-700 hover:text-black font-semibold px-3 py-2"
+              className="hidden xl:flex items-center gap-1.5 text-xs text-neutral-700 hover:text-[#2E5E3D] font-semibold px-3 py-2"
             >
-              <Phone className="w-3.5 h-3.5 text-neutral-900" />
+              <Phone className="w-3.5 h-3.5 text-[#2E5E3D]" />
               <span>{CLINIC_INFO.phoneDisplay}</span>
             </a>
 
@@ -56,9 +56,9 @@ export const Navbar = () => {
               href={getWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-tactile inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#0A0A0A] hover:bg-[#1A1A1A] text-white text-xs font-bold uppercase tracking-wider shadow-sm"
+              className="btn-tactile inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#2E5E3D] hover:bg-[#234930] text-white text-xs font-bold uppercase tracking-wider shadow-sm transition-colors"
             >
-              <Calendar className="w-3.5 h-3.5 text-[#C5A880]" />
+              <Calendar className="w-3.5 h-3.5 text-emerald-200" />
               <span>Agendar Turno</span>
             </a>
           </div>
@@ -69,10 +69,10 @@ export const Navbar = () => {
               href={getWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full bg-[#0A0A0A] text-white text-xs"
+              className="p-2 rounded-full bg-[#2E5E3D] text-white text-xs"
               aria-label="WhatsApp"
             >
-              <MessageCircle className="w-4 h-4 text-[#C5A880]" />
+              <MessageCircle className="w-4 h-4 text-emerald-200" />
             </a>
 
             <button
@@ -92,7 +92,7 @@ export const Navbar = () => {
         <div className="lg:hidden bg-white border-b border-black/10 px-4 pt-3 pb-6 space-y-3 shadow-xl animate-in slide-in-from-top-2 duration-200">
           <div className="flex items-center justify-between pb-3 border-b border-neutral-100 text-xs text-neutral-500">
             <span className="flex items-center gap-1.5 font-medium text-neutral-800">
-              <MapPin className="w-3.5 h-3.5 text-black" />
+              <MapPin className="w-3.5 h-3.5 text-[#2E5E3D]" />
               {CLINIC_INFO.address}
             </span>
             <span className="flex items-center gap-1 text-amber-500 font-bold">
@@ -106,14 +106,14 @@ export const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-sm font-semibold uppercase tracking-wider text-neutral-900"
           >
-            Especialidades Médicas
+            Especialidades Terapéuticas
           </a>
           <a
-            href="#profesional"
+            href="#profesionales"
             onClick={() => setIsOpen(false)}
             className="block py-2 text-sm font-semibold uppercase tracking-wider text-neutral-900"
           >
-            Dr. Jhon Barrios
+            Equipo Profesional
           </a>
           <a
             href="#opiniones"
@@ -127,7 +127,7 @@ export const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="block py-2 text-sm font-semibold uppercase tracking-wider text-neutral-900"
           >
-            Ubicación en Chacarita
+            Ubicación en Villa Crespo
           </a>
 
           <div className="pt-3 border-t border-neutral-100 flex flex-col gap-2">

@@ -4,28 +4,34 @@
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   
-  /* Dr. Jhon Barrios Brand: White Calacatta Marble & Matte Black */
-  --color-marble-white: #FFFFFF;
-  --color-marble-50: #FAFAFA;
-  --color-marble-100: #F4F4F6;
-  --color-marble-200: #EAEAED;
-  --color-marble-300: #D8D8DE;
-  
-  --color-noir-950: #080808;
-  --color-noir-900: #101010;
-  --color-noir-850: #181818;
-  --color-noir-800: #222222;
-  --color-noir-700: #333333;
-  --color-noir-500: #666666;
+  /* SBK Brand Palette: Sage Green, Soft Apricot Peach, Warm Linen & Lavender */
+  --color-sbk-green-900: #1B3520;
+  --color-sbk-green-800: #264A2E;
+  --color-sbk-green-700: #335C3D;
+  --color-sbk-green-600: #447450;
+  --color-sbk-green-100: #EBF3ED;
+  --color-sbk-green-50: #F4F8F5;
 
-  --color-accent-gold: #C5A880;
-  --color-accent-gold-light: #E2CFB4;
+  --color-sbk-peach-700: #D67A43;
+  --color-sbk-peach-500: #EFA274;
+  --color-sbk-peach-300: #F9CEB4;
+  --color-sbk-peach-100: #FDF3EC;
+  --color-sbk-peach-50: #FFF9F5;
+
+  --color-sbk-lavender-500: #9C8EC7;
+  --color-sbk-lavender-100: #F2EEF9;
+
+  --color-sbk-gold: #C6A15B;
+  --color-sbk-gold-light: #EBDCB9;
+
+  --color-sbk-canvas: #FAF8F5;
+  --color-sbk-surface: #FFFFFF;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #FAFAFA;
-  color: #101010;
+  background-color: #FAF8F5;
+  color: #1A1F1B;
   overflow-x: hidden;
 }
 
@@ -34,24 +40,12 @@ h1, h2, h3, h4, .font-display {
   letter-spacing: -0.01em;
 }
 
-/* Luxury marble & noir textures */
-.bg-marble {
+/* Organic botanical glow */
+.bg-botanical-glow {
   background: 
-    radial-gradient(at 0% 0%, rgba(245, 245, 247, 0.9) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(235, 235, 240, 0.7) 0px, transparent 50%),
-    #FFFFFF;
-}
-
-.bg-noir-gradient {
-  background: linear-gradient(145deg, #141414 0%, #080808 100%);
-}
-
-.marble-border {
-  border: 1px solid rgba(16, 16, 16, 0.08);
-}
-
-.noir-border {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+    radial-gradient(at 0% 0%, rgba(239, 162, 116, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(51, 92, 61, 0.12) 0px, transparent 50%),
+    #FAF8F5;
 }
 
 /* Custom scrollbar */
@@ -60,17 +54,17 @@ h1, h2, h3, h4, .font-display {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F4F4F6;
+  background: #F4F8F5;
 }
 ::-webkit-scrollbar-thumb {
-  background: #181818;
+  background: #335C3D;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #333333;
+  background: #1B3520;
 }
 
-/* Tactile micro-interactions */
+/* Smooth micro-interactions */
 .btn-tactile {
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -78,5 +72,5 @@ h1, h2, h3, h4, .font-display {
   transform: translateY(-2px);
 }
 .btn-tactile:active {
-  transform: translateY(1px) scale(0.98);
+  transform: translateY(0);
 }

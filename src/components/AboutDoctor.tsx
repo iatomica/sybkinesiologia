@@ -29,16 +29,18 @@ export const AboutDoctor = () => {
               className="bg-white rounded-[28px] overflow-hidden border border-neutral-200/80 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col"
             >
               <div className="p-3 bg-gradient-to-b from-[#FAF6EE] to-white">
-                <div className="rounded-[20px] overflow-hidden h-[300px] sm:h-[340px] bg-neutral-100 relative">
+                <div className="rounded-[20px] overflow-hidden h-[340px] sm:h-[380px] bg-neutral-900 relative">
                   <img
                     src={prof.image}
                     alt={prof.name}
-                    className="w-full h-full object-contain p-4 bg-white"
+                    className="w-full h-full object-cover object-[center_15%]"
                   />
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <span className="px-3 py-1 rounded-full bg-[#2E5E3D] text-white text-[11px] font-bold uppercase tracking-wider inline-block shadow-sm">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+                  <div className="absolute bottom-4 left-4 right-4 text-white">
+                    <span className="px-3 py-1 rounded-full bg-[#2E5E3D] text-white text-[11px] font-bold uppercase tracking-wider inline-block shadow-sm mb-1">
                       {prof.role}
                     </span>
+                    <div className="text-sm font-light text-neutral-200">Loyola 228 • Villa Crespo</div>
                   </div>
                 </div>
               </div>

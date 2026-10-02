@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="/images/sbk-logo.png" 
+                src="/images/sbk-logo.jpg" 
                 alt="Salud y Bienestar Kinesiología" 
                 className="h-14 w-auto object-contain bg-white rounded-xl p-1"
               />
