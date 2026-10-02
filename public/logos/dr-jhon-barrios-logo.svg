@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" fill="none">
+  <!-- DR. -->
+  <text 
+    x="12" 
+    y="40" 
+    fill="#0A0A0A" 
+    font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+    font-size="20" 
+    font-weight="800" 
+    letter-spacing="0.05em"
+  >DR.</text>
+
+  <!-- JHON (High-contrast Modern Serif) -->
+  <text 
+    x="60" 
+    y="78" 
+    fill="#0A0A0A" 
+    font-family="'Playfair Display', 'Cormorant Garamond', Georgia, serif" 
+    font-size="88" 
+    font-weight="900" 
+    letter-spacing="0.02em"
+  >JHON</text>
+
+  <!-- Bottom Bar: BARRIOS (Solid Box) -->
+  <rect x="62" y="88" width="118" height="24" rx="3" fill="#0A0A0A"/>
+  <text 
+    x="121" 
+    y="105" 
+    fill="#FFFFFF" 
+    font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+    font-size="14.5" 
+    font-weight="900" 
+    letter-spacing="0.12em" 
+    text-anchor="middle"
+  >BARRIOS</text>
+
+  <!-- ODONTOLOGÍA -->
+  <text 
+    x="192" 
+    y="105" 
+    fill="#0A0A0A" 
+    font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+    font-size="13.5" 
+    font-weight="800" 
+    letter-spacing="0.28em"
+  >ODONTOLOGÍA</text>
+
+  <!-- Elegant divider underline line -->
+  <line x1="62" y1="116" x2="380" y2="116" stroke="#0A0A0A" stroke-width="1.5" stroke-opacity="0.25"/>
+</svg>
